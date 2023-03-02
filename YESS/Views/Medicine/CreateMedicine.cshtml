@@ -1,0 +1,120 @@
+﻿@model YESS.BE.Medicine
+
+@{
+    ViewBag.Title = "CreateMedicine";
+    Layout = "~/Views/YESS_Layout.cshtml";
+}
+
+<!-- breadcrumb start-->
+<section class="breadcrumb_part breadcrumb_bg">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="breadcrumb_iner">
+                    <div class="breadcrumb_iner_item">
+                        <h2>הוספת תרופה</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+@using (Html.BeginForm("CreateMedicine", "Medicine",FormMethod.Post))
+{
+    <div>
+      
+         <h2 style="text-align:center" dir="rtl">@ViewBag.succeessOrNot</h2>
+      
+    </div>
+    @Html.AntiForgeryToken()
+
+<div class="form-horizontal" style="text-align:right" dir="rtl">
+    @if (RouteConfig.helper2 == 1)
+    {
+            <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="form-group">
+            @Html.LabelFor(model => model.Name, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+               
+                <input name="Name" required  type="text" class="form-control" id="Name">
+            </div>
+        </div>
+        
+        <div class="form-group">
+            @Html.LabelFor(model => model.Producer, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                
+                <input required  name="Producer" type="text" class="form-control" id="Producer">
+            </div>
+        </div>
+        
+        <div class="form-group">
+            @Html.LabelFor(model => model.GenericName, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+               
+                <input required  name="GenericName" type="text" class="form-control" id="GenericName">
+            </div>
+        </div>
+        
+        <div class="form-group">
+            @Html.LabelFor(model => model.ActiveIngredients, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                
+                <input required  name="ActiveIngredients" type="text" class="form-control" id="ActiveIngredients">
+            </div>
+        </div>
+        
+        <div class="form-group">
+            @Html.LabelFor(model => model.DosageFormName, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                
+                <input required  name="DosageFormName" type="text" class="form-control" id="DosageFormName">
+            </div>
+        </div>
+        
+        <div class="form-group">
+            @Html.LabelFor(model => model.ACTIVE_NUMERATOR_STRENGTH, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                
+                <input required  name="ACTIVE_NUMERATOR_STRENGTH" type="text" class="form-control" id="ACTIVE_NUMERATOR_STRENGTH">
+            </div>
+        </div>
+        
+        <div class="form-group">
+            @Html.LabelFor(model => model.ACTIVE_INGRED_UNIT, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                
+                <input required  name="ACTIVE_INGRED_UNIT" type="text" class="form-control" id="ACTIVE_INGRED_UNIT">
+        
+            </div>
+        </div>
+        
+        <div class="form-group">
+            @Html.LabelFor(model => model.PRODUCTNDC, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                
+                <input required  name="PRODUCTNDC" type="text" class="form-control" id="PRODUCTNDC">
+            </div>
+        </div>
+        
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <button type="submit" class="button button-contactForm btn_1">הוספת תרופה</button>
+        
+                <input type="reset" class="button button-contactForm btn_1">
+            </div>
+        </div>
+     }
+</div>
+}
+
+<div style="text-align:right" dir="rtl">
+    &nbsp;&nbsp;&nbsp;
+    <a href='@Url.Action("Index", "Home")' class="button button-contactForm btn_1">חזרה לעמוד הראשי</a>
+    @if (RouteConfig.helper2 == 0)
+    {
+       <a href='@Url.Action("Create", "Medicine")' class="button button-contactForm btn_1">הוספת תמונה לתרופה</a>
+    }
+</div>

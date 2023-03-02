@@ -1,0 +1,114 @@
+﻿@model IEnumerable<int>
+
+@{
+    Layout = "~/Views/YESS_Layout.cshtml";
+}
+
+<section class="breadcrumb_part breadcrumb_bg">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="breadcrumb_iner">
+                    <div class="breadcrumb_iner_item" style="text-align:right">
+                        <h2>התפלגות מטופלים לפי גיל</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!doctype html>
+<html>
+
+<head>
+    <script src="~/Scripts/Chart.min.js"></script>
+    <script src="~/Scripts/utils.js"></script>
+</head>
+
+<body>
+    <div id="canvas-holder" style="width: 50%;border: 0;margin: 0 auto;">
+        <canvas id="chart-area"></canvas>
+    </div>
+    <br />
+	<br />
+    <script>
+		var randomScalingFactor = function() {
+			return Math.round(Math.random() * 100);
+		};
+
+		var config = {
+			type: 'pie',
+			data: {
+				datasets: [{
+					data: [
+						@foreach (var item in Model) {
+								@(item.ToString() + ",")
+
+
+                                }
+					],
+					backgroundColor: [
+                        window.chartColors.green,
+						window.chartColors.purple,
+						window.chartColors.blue,
+						window.chartColors.red,
+                        window.chartColors.yellow,
+					],
+					label: 'Dataset 1'
+				}],
+				labels: [
+					'פעוטות 0-2',
+					'ילדים 3-18',
+					'צעירים 19-45',
+					'גיל הביניים 46-65',
+					'מבוגרים 66-120 '
+				]
+			},
+			options: {
+				responsive: true
+			}
+		};
+
+		window.onload = function() {
+			var ctx = document.getElementById('chart-area').getContext('2d');
+			window.myPie = new Chart(ctx, config);
+		};
+
+		document.getElementById('randomizeData').addEventListener('click', function() {
+			config.data.datasets.forEach(function(dataset) {
+				dataset.data = dataset.data.map(function() {
+					return randomScalingFactor();
+				});
+			});
+
+			window.myPie.update();
+		});
+
+		var colorNames = Object.keys(window.chartColors);
+		document.getElementById('addDataset').addEventListener('click', function() {
+			var newDataset = {
+				backgroundColor: [],
+				data: [],
+				label: 'New dataset ' + config.data.datasets.length,
+			};
+
+			for (var index = 0; index < config.data.labels.length; ++index) {
+				newDataset.data.push(randomScalingFactor());
+
+				var colorName = colorNames[index % colorNames.length];
+				var newColor = window.chartColors[colorName];
+				newDataset.backgroundColor.push(newColor);
+			}
+
+			config.data.datasets.push(newDataset);
+			window.myPie.update();
+		});
+
+		document.getElementById('removeDataset').addEventListener('click', function() {
+			config.data.datasets.splice(0, 1);
+			window.myPie.update();
+		});
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,41 @@
+﻿
+@{
+    ViewBag.Title = "midgam";
+    Layout = "~/Views/YESS_Layout.cshtml";
+}
+
+<!-- breadcrumb start-->
+<section class="breadcrumb_part breadcrumb_bg">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="breadcrumb_iner">
+                    <div class="breadcrumb_iner_item">
+                        <h2> מדגמים YESS</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- breadcrumb start-->
+
+<div class="form-group" dir="rtl" style="text-align:right">
+    <div class="col-md-offset-2 col-md-10">
+        
+        <a href='@Url.Action("BeforeIndex", "ShowChart")' class="button button-contactForm btn_1">לקיחת תרופה בשנה הנבחרת </a>
+        <a href='@Url.Action("BeforeIndex1", "ShowChart")' class="button button-contactForm btn_1"> הנפקת מרשם בשנה נבחרת</a>
+        <a href='@Url.Action("BeforeIndex2", "ShowChart")' class="button button-contactForm btn_1">לקיחת תרופה בשנה הנבחרת לפי מגדר</a>
+       @if (RouteConfig.WhichUser == 1)
+       {
+        <a href='@Url.Action("Index3", "ShowChart")' class="button button-contactForm btn_1">התפלגות מטופלים לפי גיל</a>
+        <a href='@Url.Action("Index4", "ShowChart")' class="button button-contactForm btn_1">התפלגות רופאים לפי תחום התמחות</a>
+       }
+
+
+    </div>
+
+
+</div>
+

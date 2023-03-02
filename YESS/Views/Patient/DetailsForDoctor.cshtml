@@ -1,0 +1,122 @@
+﻿@model IEnumerable<YESS.Models.ViewModel.PatientViewModel>
+
+@{
+    ViewBag.Title = "DetailsForDoctor";
+    Layout = "~/Views/YESS_Layout.cshtml";
+}
+
+
+<!-- breadcrumb start-->
+<section class="breadcrumb_part breadcrumb_bg">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="breadcrumb_iner">
+                    <div class="breadcrumb_iner_item">
+                        <h2>מאגר מטופלים</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<table class="table" dir="rtl" style="text-align:right">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.FirstName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.LasttName)
+        </th>
+        
+        <th>
+            @Html.DisplayNameFor(model => model.EnglishName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ID_TZ)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Gender)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Address)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Phone)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Mail)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.BirthDate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Hmo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Allergy)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Prescription)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+<tr>
+    <td>
+        @Html.DisplayFor(modelItem => item.FirstName)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.LasttName)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.EnglishName)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.ID_TZ)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Gender)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Address)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Phone)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Mail)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.BirthDate)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Hmo)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Allergy)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Prescription)
+    </td>
+
+   
+</tr>
+    }
+
+</table>
+<div class="form-group" dir="rtl" style="text-align:right">
+    <div class="col-md-offset-2 col-md-10">
+        <a href='@Url.Action("Index", "Home")' class="button button-contactForm btn_1">חזרה לעמוד הראשי</a>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+        <a href='@Url.Action("Create1", "Prescriptions")' class="button button-contactForm btn_1">הנפקת מרשם למטופל</a>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+
+    </div>
+</div>

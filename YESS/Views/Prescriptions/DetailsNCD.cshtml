@@ -1,0 +1,90 @@
+﻿@model IEnumerable<YESS.Models.ViewModel.PrescriptionsViewModel>
+@{
+    ViewBag.Title = "DetailsNCD";
+    Layout = "~/Views/YESS_Layout.cshtml";
+}
+
+
+<!-- breadcrumb start-->
+<section class="breadcrumb_part breadcrumb_bg">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="breadcrumb_iner">
+                    <div class="breadcrumb_iner_item">
+                        <h2>מרשמים על פי תרופה נבחרת</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+<table class="table" dir="rtl" style="text-align:right">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.ID_TZ_Doctor)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ID_TZ_Patient)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NDC)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Start)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Last)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TimesToTake)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Ammount)
+        </th>
+        <th></th>
+    </tr>
+
+
+    @foreach (var item in Model)
+
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.ID_TZ_Doctor)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ID_TZ_Patient)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NDC)
+            </td>
+           <td>
+                @Html.DisplayFor(modelItem => item.Start)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Last)
+            </td>
+            <td>
+               @Html.DisplayFor(modelItem => item.TimesToTake)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Ammount)
+            </td>
+        </tr>
+
+    }
+
+
+
+</table>
+
+<div class="form-group" dir="rtl" style="text-align:right">
+   <div class="col-md-offset-2 col-md-10">
+        <a href='@Url.Action("Index", "Home")' class="button button-contactForm btn_1">חזרה לעמוד הראשי</a>
+    </div>
+</div>

@@ -1,0 +1,281 @@
+C:\Users\USER\Desktop\YESS\YESS.BE\bin\Debug\YESS.BE.dll
+C:\Users\USER\Desktop\YESS\YESS.BE\bin\Debug\YESS.BE.pdb
+C:\Users\USER\Desktop\YESS\YESS.BE\obj\Debug\YESS.BE.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\YESS\YESS.BE\obj\Debug\YESS.BE.dll
+C:\Users\USER\Desktop\YESS\YESS.BE\obj\Debug\YESS.BE.pdb
+C:\Users\user\Desktop\מחשוב ענן תשפ\13.09.2020\YESS\YESS.BE\bin\Debug\YESS.BE.dll
+C:\Users\user\Desktop\מחשוב ענן תשפ\13.09.2020\YESS\YESS.BE\bin\Debug\YESS.BE.pdb
+C:\Users\user\Desktop\מחשוב ענן תשפ\13.09.2020\YESS\YESS.BE\obj\Debug\YESS.BE.csprojAssemblyReference.cache
+C:\Users\user\Desktop\מחשוב ענן תשפ\13.09.2020\YESS\YESS.BE\obj\Debug\YESS.BE.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\מחשוב ענן תשפ\13.09.2020\YESS\YESS.BE\obj\Debug\YESS.BE.dll
+C:\Users\user\Desktop\מחשוב ענן תשפ\13.09.2020\YESS\YESS.BE\obj\Debug\YESS.BE.pdb
+C:\Users\USER\Desktop\YESS\14.09.2020.__T 0030\YESS\YESS.BE\bin\Debug\YESS.BE.dll
+C:\Users\USER\Desktop\YESS\14.09.2020.__T 0030\YESS\YESS.BE\bin\Debug\YESS.BE.pdb
+C:\Users\USER\Desktop\YESS\14.09.2020.__T 0030\YESS\YESS.BE\obj\Debug\YESS.BE.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\YESS\14.09.2020.__T 0030\YESS\YESS.BE\obj\Debug\YESS.BE.dll
+C:\Users\USER\Desktop\YESS\14.09.2020.__T 0030\YESS\YESS.BE\obj\Debug\YESS.BE.pdb
+C:\Users\user\Desktop\מחשוב ענן תשפ\16.09.2020 t 19_34 d\YESS\YESS.BE\bin\Debug\YESS.BE.dll
+C:\Users\user\Desktop\מחשוב ענן תשפ\16.09.2020 t 19_34 d\YESS\YESS.BE\bin\Debug\YESS.BE.pdb
+C:\Users\user\Desktop\מחשוב ענן תשפ\16.09.2020 t 19_34 d\YESS\YESS.BE\obj\Debug\YESS.BE.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\מחשוב ענן תשפ\16.09.2020 t 19_34 d\YESS\YESS.BE\obj\Debug\YESS.BE.dll
+C:\Users\user\Desktop\מחשוב ענן תשפ\16.09.2020 t 19_34 d\YESS\YESS.BE\obj\Debug\YESS.BE.pdb
+C:\Users\user\Desktop\מחשוב ענן תשפ\16.09.2020 t 19_34 d\YESS\YESS.BE\obj\Debug\YESS.BE.csprojAssemblyReference.cache
+C:\Users\user\Desktop\מחשוב ענן תשפ\17.09.2020.17.38\YESS.BE\bin\Debug\YESS.BE.dll
+C:\Users\user\Desktop\מחשוב ענן תשפ\17.09.2020.17.38\YESS.BE\bin\Debug\YESS.BE.pdb
+C:\Users\user\Desktop\מחשוב ענן תשפ\17.09.2020.17.38\YESS.BE\obj\Debug\YESS.BE.csprojAssemblyReference.cache
+C:\Users\user\Desktop\מחשוב ענן תשפ\17.09.2020.17.38\YESS.BE\obj\Debug\YESS.BE.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\מחשוב ענן תשפ\17.09.2020.17.38\YESS.BE\obj\Debug\YESS.BE.dll
+C:\Users\user\Desktop\מחשוב ענן תשפ\17.09.2020.17.38\YESS.BE\obj\Debug\YESS.BE.pdb
+C:\Users\user\Desktop\מחשוב ענן תשפ\17.09.2020__.20.50\YESS.BE\bin\Debug\YESS.BE.dll
+C:\Users\user\Desktop\מחשוב ענן תשפ\17.09.2020__.20.50\YESS.BE\bin\Debug\YESS.BE.pdb
+C:\Users\user\Desktop\מחשוב ענן תשפ\17.09.2020__.20.50\YESS.BE\obj\Debug\YESS.BE.csprojAssemblyReference.cache
+C:\Users\user\Desktop\מחשוב ענן תשפ\17.09.2020__.20.50\YESS.BE\obj\Debug\YESS.BE.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\מחשוב ענן תשפ\17.09.2020__.20.50\YESS.BE\obj\Debug\YESS.BE.dll
+C:\Users\user\Desktop\מחשוב ענן תשפ\17.09.2020__.20.50\YESS.BE\obj\Debug\YESS.BE.pdb
+C:\Users\user\Desktop\מחשוב ענן תשפ\18.09.2020__.00.08\YESS.BE\bin\Debug\YESS.BE.dll
+C:\Users\user\Desktop\מחשוב ענן תשפ\18.09.2020__.00.08\YESS.BE\bin\Debug\YESS.BE.pdb
+C:\Users\user\Desktop\מחשוב ענן תשפ\18.09.2020__.00.08\YESS.BE\obj\Debug\YESS.BE.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\מחשוב ענן תשפ\18.09.2020__.00.08\YESS.BE\obj\Debug\YESS.BE.dll
+C:\Users\user\Desktop\מחשוב ענן תשפ\18.09.2020__.00.08\YESS.BE\obj\Debug\YESS.BE.pdb
+C:\Users\USER\Desktop\23.09.2020.20.47\YESS.BE\bin\Debug\YESS.BE.dll
+C:\Users\USER\Desktop\23.09.2020.20.47\YESS.BE\bin\Debug\YESS.BE.pdb
+C:\Users\USER\Desktop\23.09.2020.20.47\YESS.BE\obj\Debug\YESS.BE.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\23.09.2020.20.47\YESS.BE\obj\Debug\YESS.BE.dll
+C:\Users\USER\Desktop\23.09.2020.20.47\YESS.BE\obj\Debug\YESS.BE.pdb
+C:\Users\user\Desktop\מחשוב ענן תשפ\פרויקט 25.09.2020  t 1504d\YESS.BE\bin\Debug\YESS.BE.dll
+C:\Users\user\Desktop\מחשוב ענן תשפ\פרויקט 25.09.2020  t 1504d\YESS.BE\bin\Debug\YESS.BE.pdb
+C:\Users\user\Desktop\מחשוב ענן תשפ\פרויקט 25.09.2020  t 1504d\YESS.BE\obj\Debug\YESS.BE.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\מחשוב ענן תשפ\פרויקט 25.09.2020  t 1504d\YESS.BE\obj\Debug\YESS.BE.dll
+C:\Users\user\Desktop\מחשוב ענן תשפ\פרויקט 25.09.2020  t 1504d\YESS.BE\obj\Debug\YESS.BE.pdb
+C:\Users\user\Desktop\מחשוב ענן תשפ\פרויקט 27.09.2020  t 1345d\YESS.BE\bin\Debug\YESS.BE.dll
+C:\Users\user\Desktop\מחשוב ענן תשפ\פרויקט 27.09.2020  t 1345d\YESS.BE\bin\Debug\YESS.BE.pdb
+C:\Users\user\Desktop\מחשוב ענן תשפ\פרויקט 27.09.2020  t 1345d\YESS.BE\obj\Debug\YESS.BE.csprojAssemblyReference.cache
+C:\Users\user\Desktop\מחשוב ענן תשפ\פרויקט 27.09.2020  t 1345d\YESS.BE\obj\Debug\YESS.BE.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\מחשוב ענן תשפ\פרויקט 27.09.2020  t 1345d\YESS.BE\obj\Debug\YESS.BE.dll
+C:\Users\user\Desktop\מחשוב ענן תשפ\פרויקט 27.09.2020  t 1345d\YESS.BE\obj\Debug\YESS.BE.pdb
+C:\Users\USER\Desktop\28.09.20\פרויקט 28.09.2020  t 2300d\YESS.BE\bin\Debug\YESS.BE.dll
+C:\Users\USER\Desktop\28.09.20\פרויקט 28.09.2020  t 2300d\YESS.BE\bin\Debug\YESS.BE.pdb
+C:\Users\USER\Desktop\28.09.20\פרויקט 28.09.2020  t 2300d\YESS.BE\obj\Debug\YESS.BE.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\28.09.20\פרויקט 28.09.2020  t 2300d\YESS.BE\obj\Debug\YESS.BE.dll
+C:\Users\USER\Desktop\28.09.20\פרויקט 28.09.2020  t 2300d\YESS.BE\obj\Debug\YESS.BE.pdb
+C:\Users\user\Desktop\מחשוב ענן תשפ 29.09.2020\29.09.20.21.15 פרויקט\YESS.BE\bin\Debug\YESS.BE.dll
+C:\Users\user\Desktop\מחשוב ענן תשפ 29.09.2020\29.09.20.21.15 פרויקט\YESS.BE\bin\Debug\YESS.BE.pdb
+C:\Users\user\Desktop\מחשוב ענן תשפ 29.09.2020\29.09.20.21.15 פרויקט\YESS.BE\obj\Debug\YESS.BE.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\מחשוב ענן תשפ 29.09.2020\29.09.20.21.15 פרויקט\YESS.BE\obj\Debug\YESS.BE.dll
+C:\Users\user\Desktop\מחשוב ענן תשפ 29.09.2020\29.09.20.21.15 פרויקט\YESS.BE\obj\Debug\YESS.BE.pdb
+C:\Users\USER\Desktop\30.9.20\30.09.2020.00.55 פרויקט\YESS.BE\bin\Debug\YESS.BE.dll
+C:\Users\USER\Desktop\30.9.20\30.09.2020.00.55 פרויקט\YESS.BE\bin\Debug\YESS.BE.pdb
+C:\Users\USER\Desktop\30.9.20\30.09.2020.00.55 פרויקט\YESS.BE\obj\Debug\YESS.BE.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\30.9.20\30.09.2020.00.55 פרויקט\YESS.BE\obj\Debug\YESS.BE.dll
+C:\Users\USER\Desktop\30.9.20\30.09.2020.00.55 פרויקט\YESS.BE\obj\Debug\YESS.BE.pdb
+C:\Users\user\Desktop\projectCourse\30.09.20.21.07\YESS.BE\bin\Debug\YESS.BE.dll
+C:\Users\user\Desktop\projectCourse\30.09.20.21.07\YESS.BE\bin\Debug\YESS.BE.pdb
+C:\Users\user\Desktop\projectCourse\30.09.20.21.07\YESS.BE\obj\Debug\YESS.BE.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\projectCourse\30.09.20.21.07\YESS.BE\obj\Debug\YESS.BE.dll
+C:\Users\user\Desktop\projectCourse\30.09.20.21.07\YESS.BE\obj\Debug\YESS.BE.pdb
+C:\Users\USER\Desktop\1.10.20\30.09.2020.23.55\YESS.BE\bin\Debug\YESS.BE.dll
+C:\Users\USER\Desktop\1.10.20\30.09.2020.23.55\YESS.BE\bin\Debug\YESS.BE.pdb
+C:\Users\USER\Desktop\1.10.20\30.09.2020.23.55\YESS.BE\obj\Debug\YESS.BE.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\1.10.20\30.09.2020.23.55\YESS.BE\obj\Debug\YESS.BE.dll
+C:\Users\USER\Desktop\1.10.20\30.09.2020.23.55\YESS.BE\obj\Debug\YESS.BE.pdb
+C:\Users\user\Desktop\projectCourse\01.10.20.16.58YESS\YESS.BE\bin\Debug\YESS.BE.dll
+C:\Users\user\Desktop\projectCourse\01.10.20.16.58YESS\YESS.BE\bin\Debug\YESS.BE.pdb
+C:\Users\user\Desktop\projectCourse\01.10.20.16.58YESS\YESS.BE\obj\Debug\YESS.BE.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\projectCourse\01.10.20.16.58YESS\YESS.BE\obj\Debug\YESS.BE.dll
+C:\Users\user\Desktop\projectCourse\01.10.20.16.58YESS\YESS.BE\obj\Debug\YESS.BE.pdb
+C:\Users\user\Desktop\projectCourse\01.10.20.16.58YESS\YESS.BE\obj\Debug\YESS.BE.csprojAssemblyReference.cache
+C:\Users\user\Desktop\projectCourse\01.10.2020.20.30YESS\YESS.BE\bin\Debug\YESS.BE.dll
+C:\Users\user\Desktop\projectCourse\01.10.2020.20.30YESS\YESS.BE\bin\Debug\YESS.BE.pdb
+C:\Users\user\Desktop\projectCourse\01.10.2020.20.30YESS\YESS.BE\obj\Debug\YESS.BE.csprojAssemblyReference.cache
+C:\Users\user\Desktop\projectCourse\01.10.2020.20.30YESS\YESS.BE\obj\Debug\YESS.BE.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\projectCourse\01.10.2020.20.30YESS\YESS.BE\obj\Debug\YESS.BE.dll
+C:\Users\user\Desktop\projectCourse\01.10.2020.20.30YESS\YESS.BE\obj\Debug\YESS.BE.pdb
+D:\Users\1\Desktop\לא לגעת --יוכי\מחשוב ענן אלול תשפ\חלק פרויקט שלנו\01.10.2020.23.55YESS\YESS.BE\bin\Debug\YESS.BE.dll
+D:\Users\1\Desktop\לא לגעת --יוכי\מחשוב ענן אלול תשפ\חלק פרויקט שלנו\01.10.2020.23.55YESS\YESS.BE\bin\Debug\YESS.BE.pdb
+D:\Users\1\Desktop\לא לגעת --יוכי\מחשוב ענן אלול תשפ\חלק פרויקט שלנו\01.10.2020.23.55YESS\YESS.BE\obj\Debug\YESS.BE.csproj.CoreCompileInputs.cache
+D:\Users\1\Desktop\לא לגעת --יוכי\מחשוב ענן אלול תשפ\חלק פרויקט שלנו\01.10.2020.23.55YESS\YESS.BE\obj\Debug\YESS.BE.dll
+D:\Users\1\Desktop\לא לגעת --יוכי\מחשוב ענן אלול תשפ\חלק פרויקט שלנו\01.10.2020.23.55YESS\YESS.BE\obj\Debug\YESS.BE.pdb
+C:\Users\user\Desktop\מחשוב ענן תשפ 29.09.2020\03.10.2020.23YESS\YESS.BE\bin\Debug\YESS.BE.dll
+C:\Users\user\Desktop\מחשוב ענן תשפ 29.09.2020\03.10.2020.23YESS\YESS.BE\bin\Debug\YESS.BE.pdb
+C:\Users\user\Desktop\מחשוב ענן תשפ 29.09.2020\03.10.2020.23YESS\YESS.BE\obj\Debug\YESS.BE.csprojAssemblyReference.cache
+C:\Users\user\Desktop\מחשוב ענן תשפ 29.09.2020\03.10.2020.23YESS\YESS.BE\obj\Debug\YESS.BE.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\מחשוב ענן תשפ 29.09.2020\03.10.2020.23YESS\YESS.BE\obj\Debug\YESS.BE.dll
+C:\Users\user\Desktop\מחשוב ענן תשפ 29.09.2020\03.10.2020.23YESS\YESS.BE\obj\Debug\YESS.BE.pdb
+C:\Users\USER\Desktop\04.10.20\04.10.2020.00YESS\YESS.BE\bin\Debug\YESS.BE.dll
+C:\Users\USER\Desktop\04.10.20\04.10.2020.00YESS\YESS.BE\bin\Debug\YESS.BE.pdb
+C:\Users\USER\Desktop\04.10.20\04.10.2020.00YESS\YESS.BE\obj\Debug\YESS.BE.csprojAssemblyReference.cache
+C:\Users\USER\Desktop\04.10.20\04.10.2020.00YESS\YESS.BE\obj\Debug\YESS.BE.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\04.10.20\04.10.2020.00YESS\YESS.BE\obj\Debug\YESS.BE.dll
+C:\Users\USER\Desktop\04.10.20\04.10.2020.00YESS\YESS.BE\obj\Debug\YESS.BE.pdb
+D:\Users\1\Desktop\AddToMichshuvAnan\04.10.20.20.21\YESS.BE\bin\Debug\YESS.BE.dll
+D:\Users\1\Desktop\AddToMichshuvAnan\04.10.20.20.21\YESS.BE\bin\Debug\YESS.BE.pdb
+D:\Users\1\Desktop\AddToMichshuvAnan\04.10.20.20.21\YESS.BE\obj\Debug\YESS.BE.csproj.CoreCompileInputs.cache
+D:\Users\1\Desktop\AddToMichshuvAnan\04.10.20.20.21\YESS.BE\obj\Debug\YESS.BE.dll
+D:\Users\1\Desktop\AddToMichshuvAnan\04.10.20.20.21\YESS.BE\obj\Debug\YESS.BE.pdb
+C:\Users\USER\Desktop\05.10.20\05.10.2020.17.21\YESS.BE\bin\Debug\YESS.BE.dll
+C:\Users\USER\Desktop\05.10.20\05.10.2020.17.21\YESS.BE\bin\Debug\YESS.BE.pdb
+C:\Users\USER\Desktop\05.10.20\05.10.2020.17.21\YESS.BE\obj\Debug\YESS.BE.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\05.10.20\05.10.2020.17.21\YESS.BE\obj\Debug\YESS.BE.dll
+C:\Users\USER\Desktop\05.10.20\05.10.2020.17.21\YESS.BE\obj\Debug\YESS.BE.pdb
+D:\Users\1\Desktop\AddToMichshuvAnan\05.10.20.20.43\YESS.BE\bin\Debug\YESS.BE.dll
+D:\Users\1\Desktop\AddToMichshuvAnan\05.10.20.20.43\YESS.BE\bin\Debug\YESS.BE.pdb
+D:\Users\1\Desktop\AddToMichshuvAnan\05.10.20.20.43\YESS.BE\obj\Debug\YESS.BE.csproj.CoreCompileInputs.cache
+D:\Users\1\Desktop\AddToMichshuvAnan\05.10.20.20.43\YESS.BE\obj\Debug\YESS.BE.dll
+D:\Users\1\Desktop\AddToMichshuvAnan\05.10.20.20.43\YESS.BE\obj\Debug\YESS.BE.pdb
+C:\Users\USER\Desktop\‏‏06.10.20\06.10.2020.00\YESS.BE\bin\Debug\YESS.BE.dll
+C:\Users\USER\Desktop\‏‏06.10.20\06.10.2020.00\YESS.BE\bin\Debug\YESS.BE.pdb
+C:\Users\USER\Desktop\‏‏06.10.20\06.10.2020.00\YESS.BE\obj\Debug\YESS.BE.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\‏‏06.10.20\06.10.2020.00\YESS.BE\obj\Debug\YESS.BE.dll
+C:\Users\USER\Desktop\‏‏06.10.20\06.10.2020.00\YESS.BE\obj\Debug\YESS.BE.pdb
+D:\Users\1\Desktop\AddToMichshuvAnan\06.10.2020.21.49\YESS.BE\bin\Debug\YESS.BE.dll
+D:\Users\1\Desktop\AddToMichshuvAnan\06.10.2020.21.49\YESS.BE\bin\Debug\YESS.BE.pdb
+D:\Users\1\Desktop\AddToMichshuvAnan\06.10.2020.21.49\YESS.BE\obj\Debug\YESS.BE.csproj.CoreCompileInputs.cache
+D:\Users\1\Desktop\AddToMichshuvAnan\06.10.2020.21.49\YESS.BE\obj\Debug\YESS.BE.dll
+D:\Users\1\Desktop\AddToMichshuvAnan\06.10.2020.21.49\YESS.BE\obj\Debug\YESS.BE.pdb
+D:\Users\1\Desktop\AddToMichshuvAnan\06.10.2020.21.49\YESS.BE\obj\Debug\YESS.BE.csprojAssemblyReference.cache
+C:\Users\USER\Desktop\07.10.2020\06.10.2020.23.55\YESS.BE\bin\Debug\YESS.BE.dll
+C:\Users\USER\Desktop\07.10.2020\06.10.2020.23.55\YESS.BE\bin\Debug\YESS.BE.pdb
+C:\Users\USER\Desktop\07.10.2020\06.10.2020.23.55\YESS.BE\obj\Debug\YESS.BE.csprojAssemblyReference.cache
+C:\Users\USER\Desktop\07.10.2020\06.10.2020.23.55\YESS.BE\obj\Debug\YESS.BE.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\07.10.2020\06.10.2020.23.55\YESS.BE\obj\Debug\YESS.BE.dll
+C:\Users\USER\Desktop\07.10.2020\06.10.2020.23.55\YESS.BE\obj\Debug\YESS.BE.pdb
+D:\Users\1\Desktop\AddToMichshuvAnan\07.10.20.19.49\YESS.BE\bin\Debug\YESS.BE.dll
+D:\Users\1\Desktop\AddToMichshuvAnan\07.10.20.19.49\YESS.BE\bin\Debug\YESS.BE.pdb
+D:\Users\1\Desktop\AddToMichshuvAnan\07.10.20.19.49\YESS.BE\obj\Debug\YESS.BE.csproj.CoreCompileInputs.cache
+D:\Users\1\Desktop\AddToMichshuvAnan\07.10.20.19.49\YESS.BE\obj\Debug\YESS.BE.dll
+D:\Users\1\Desktop\AddToMichshuvAnan\07.10.20.19.49\YESS.BE\obj\Debug\YESS.BE.pdb
+D:\Users\1\Desktop\AddToMichshuvAnan\07.10.20.19.49\YESS.BE\obj\Debug\YESS.BE.csprojAssemblyReference.cache
+C:\Users\USER\Desktop\08.10.20\07.10.20.23.55\YESS.BE\bin\Debug\YESS.BE.dll
+C:\Users\USER\Desktop\08.10.20\07.10.20.23.55\YESS.BE\bin\Debug\YESS.BE.pdb
+C:\Users\USER\Desktop\08.10.20\07.10.20.23.55\YESS.BE\obj\Debug\YESS.BE.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\08.10.20\07.10.20.23.55\YESS.BE\obj\Debug\YESS.BE.dll
+C:\Users\USER\Desktop\08.10.20\07.10.20.23.55\YESS.BE\obj\Debug\YESS.BE.pdb
+D:\Users\1\Desktop\AddToMichshuvAnan\08.10.20.16.59\YESS.BE\bin\Debug\YESS.BE.dll
+D:\Users\1\Desktop\AddToMichshuvAnan\08.10.20.16.59\YESS.BE\bin\Debug\YESS.BE.pdb
+D:\Users\1\Desktop\AddToMichshuvAnan\08.10.20.16.59\YESS.BE\obj\Debug\YESS.BE.csproj.CoreCompileInputs.cache
+D:\Users\1\Desktop\AddToMichshuvAnan\08.10.20.16.59\YESS.BE\obj\Debug\YESS.BE.dll
+D:\Users\1\Desktop\AddToMichshuvAnan\08.10.20.16.59\YESS.BE\obj\Debug\YESS.BE.pdb
+D:\Users\1\Desktop\AddToMichshuvAnan\08.10.20.16.59\YESS.BE\obj\Debug\YESS.BE.csprojAssemblyReference.cache
+C:\Users\USER\Desktop\09.10.20\08.10.20.23.55\YESS.BE\bin\Debug\YESS.BE.dll
+C:\Users\USER\Desktop\09.10.20\08.10.20.23.55\YESS.BE\bin\Debug\YESS.BE.pdb
+C:\Users\USER\Desktop\09.10.20\08.10.20.23.55\YESS.BE\obj\Debug\YESS.BE.csprojAssemblyReference.cache
+C:\Users\USER\Desktop\09.10.20\08.10.20.23.55\YESS.BE\obj\Debug\YESS.BE.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\09.10.20\08.10.20.23.55\YESS.BE\obj\Debug\YESS.BE.dll
+C:\Users\USER\Desktop\09.10.20\08.10.20.23.55\YESS.BE\obj\Debug\YESS.BE.pdb
+D:\Users\1\Desktop\AddToMichshuvAnan\10.10.2020\YESS.BE\bin\Debug\YESS.BE.dll
+D:\Users\1\Desktop\AddToMichshuvAnan\10.10.2020\YESS.BE\bin\Debug\YESS.BE.pdb
+D:\Users\1\Desktop\AddToMichshuvAnan\10.10.2020\YESS.BE\obj\Debug\YESS.BE.csprojAssemblyReference.cache
+D:\Users\1\Desktop\AddToMichshuvAnan\10.10.2020\YESS.BE\obj\Debug\YESS.BE.csproj.CoreCompileInputs.cache
+D:\Users\1\Desktop\AddToMichshuvAnan\10.10.2020\YESS.BE\obj\Debug\YESS.BE.dll
+D:\Users\1\Desktop\AddToMichshuvAnan\10.10.2020\YESS.BE\obj\Debug\YESS.BE.pdb
+C:\Users\USER\Desktop\שני ואלינא העברת מחשב\YESS.BE\bin\Debug\YESS.BE.dll
+C:\Users\USER\Desktop\שני ואלינא העברת מחשב\YESS.BE\bin\Debug\YESS.BE.pdb
+C:\Users\USER\Desktop\שני ואלינא העברת מחשב\YESS.BE\obj\Debug\YESS.BE.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\שני ואלינא העברת מחשב\YESS.BE\obj\Debug\YESS.BE.dll
+C:\Users\USER\Desktop\שני ואלינא העברת מחשב\YESS.BE\obj\Debug\YESS.BE.pdb
+C:\Users\USER\Desktop\שני ואלינא העברת מחשב\YESS.BE\obj\Debug\YESS.BE.csprojAssemblyReference.cache
+D:\Users\1\Desktop\AddToMichshuvAnan\12.10.2020.11\YESS.BE\bin\Debug\YESS.BE.dll
+D:\Users\1\Desktop\AddToMichshuvAnan\12.10.2020.11\YESS.BE\bin\Debug\YESS.BE.pdb
+D:\Users\1\Desktop\AddToMichshuvAnan\12.10.2020.11\YESS.BE\obj\Debug\YESS.BE.csproj.CoreCompileInputs.cache
+D:\Users\1\Desktop\AddToMichshuvAnan\12.10.2020.11\YESS.BE\obj\Debug\YESS.BE.dll
+D:\Users\1\Desktop\AddToMichshuvAnan\12.10.2020.11\YESS.BE\obj\Debug\YESS.BE.pdb
+C:\Users\USER\Desktop\תיקונים12.10.20\12.10.2020.20\YESS.BE\bin\Debug\YESS.BE.dll
+C:\Users\USER\Desktop\תיקונים12.10.20\12.10.2020.20\YESS.BE\bin\Debug\YESS.BE.pdb
+C:\Users\USER\Desktop\תיקונים12.10.20\12.10.2020.20\YESS.BE\obj\Debug\YESS.BE.csprojAssemblyReference.cache
+C:\Users\USER\Desktop\תיקונים12.10.20\12.10.2020.20\YESS.BE\obj\Debug\YESS.BE.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\תיקונים12.10.20\12.10.2020.20\YESS.BE\obj\Debug\YESS.BE.dll
+C:\Users\USER\Desktop\תיקונים12.10.20\12.10.2020.20\YESS.BE\obj\Debug\YESS.BE.pdb
+C:\Users\User\Desktop\YESS\YESS.BE\obj\Debug\YESS.BE.csprojAssemblyReference.cache
+C:\Users\USER\Desktop\13.10.2020\13.10.2020.1846\YESS.BE\bin\Debug\YESS.BE.dll
+C:\Users\USER\Desktop\13.10.2020\13.10.2020.1846\YESS.BE\bin\Debug\YESS.BE.pdb
+C:\Users\USER\Desktop\13.10.2020\13.10.2020.1846\YESS.BE\obj\Debug\YESS.BE.csprojAssemblyReference.cache
+C:\Users\USER\Desktop\13.10.2020\13.10.2020.1846\YESS.BE\obj\Debug\YESS.BE.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\13.10.2020\13.10.2020.1846\YESS.BE\obj\Debug\YESS.BE.dll
+C:\Users\USER\Desktop\13.10.2020\13.10.2020.1846\YESS.BE\obj\Debug\YESS.BE.pdb
+C:\Users\User\Desktop\פרויקט חדש\YESS.BE\bin\Debug\YESS.BE.dll
+C:\Users\User\Desktop\פרויקט חדש\YESS.BE\bin\Debug\YESS.BE.pdb
+C:\Users\User\Desktop\פרויקט חדש\YESS.BE\obj\Debug\YESS.BE.csprojAssemblyReference.cache
+C:\Users\User\Desktop\פרויקט חדש\YESS.BE\obj\Debug\YESS.BE.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\פרויקט חדש\YESS.BE\obj\Debug\YESS.BE.dll
+C:\Users\User\Desktop\פרויקט חדש\YESS.BE\obj\Debug\YESS.BE.pdb
+C:\Users\USER\Desktop\14.10.2020\14.10.2020.1945\YESS\YESS.BE\bin\Debug\YESS.BE.dll
+C:\Users\USER\Desktop\14.10.2020\14.10.2020.1945\YESS\YESS.BE\bin\Debug\YESS.BE.pdb
+C:\Users\USER\Desktop\14.10.2020\14.10.2020.1945\YESS\YESS.BE\obj\Debug\YESS.BE.csprojAssemblyReference.cache
+C:\Users\USER\Desktop\14.10.2020\14.10.2020.1945\YESS\YESS.BE\obj\Debug\YESS.BE.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\14.10.2020\14.10.2020.1945\YESS\YESS.BE\obj\Debug\YESS.BE.dll
+C:\Users\USER\Desktop\14.10.2020\14.10.2020.1945\YESS\YESS.BE\obj\Debug\YESS.BE.pdb
+C:\Users\User\Desktop\15.10\YESS.BE\bin\Debug\YESS.BE.dll
+C:\Users\User\Desktop\15.10\YESS.BE\bin\Debug\YESS.BE.pdb
+C:\Users\User\Desktop\15.10\YESS.BE\obj\Debug\YESS.BE.csprojAssemblyReference.cache
+C:\Users\User\Desktop\15.10\YESS.BE\obj\Debug\YESS.BE.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\15.10\YESS.BE\obj\Debug\YESS.BE.dll
+C:\Users\User\Desktop\15.10\YESS.BE\obj\Debug\YESS.BE.pdb
+C:\Users\User\Desktop\15.10 שעה 2030\YESS.BE\bin\Debug\YESS.BE.dll
+C:\Users\User\Desktop\15.10 שעה 2030\YESS.BE\bin\Debug\YESS.BE.pdb
+C:\Users\User\Desktop\15.10 שעה 2030\YESS.BE\obj\Debug\YESS.BE.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\15.10 שעה 2030\YESS.BE\obj\Debug\YESS.BE.dll
+C:\Users\User\Desktop\15.10 שעה 2030\YESS.BE\obj\Debug\YESS.BE.pdb
+C:\Users\user\Desktop\projectCourse\16.10.2020.15\16.10.20200233\YESS.BE\bin\Debug\YESS.BE.dll
+C:\Users\user\Desktop\projectCourse\16.10.2020.15\16.10.20200233\YESS.BE\bin\Debug\YESS.BE.pdb
+C:\Users\user\Desktop\projectCourse\16.10.2020.15\16.10.20200233\YESS.BE\obj\Debug\YESS.BE.csprojAssemblyReference.cache
+C:\Users\user\Desktop\projectCourse\16.10.2020.15\16.10.20200233\YESS.BE\obj\Debug\YESS.BE.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\projectCourse\16.10.2020.15\16.10.20200233\YESS.BE\obj\Debug\YESS.BE.dll
+C:\Users\user\Desktop\projectCourse\16.10.2020.15\16.10.20200233\YESS.BE\obj\Debug\YESS.BE.pdb
+C:\Users\USER\Desktop\17.10.2020\16.10.2020.17\YESS.BE\bin\Debug\YESS.BE.dll
+C:\Users\USER\Desktop\17.10.2020\16.10.2020.17\YESS.BE\bin\Debug\YESS.BE.pdb
+C:\Users\USER\Desktop\17.10.2020\16.10.2020.17\YESS.BE\obj\Debug\YESS.BE.csprojAssemblyReference.cache
+C:\Users\USER\Desktop\17.10.2020\16.10.2020.17\YESS.BE\obj\Debug\YESS.BE.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\17.10.2020\16.10.2020.17\YESS.BE\obj\Debug\YESS.BE.dll
+C:\Users\USER\Desktop\17.10.2020\16.10.2020.17\YESS.BE\obj\Debug\YESS.BE.pdb
+D:\Users\1\Desktop\AddToMichshuvAnan\18.10.2020.9\YESS.BE\bin\Debug\YESS.BE.dll
+D:\Users\1\Desktop\AddToMichshuvAnan\18.10.2020.9\YESS.BE\bin\Debug\YESS.BE.pdb
+D:\Users\1\Desktop\AddToMichshuvAnan\18.10.2020.9\YESS.BE\obj\Debug\YESS.BE.csprojAssemblyReference.cache
+D:\Users\1\Desktop\AddToMichshuvAnan\18.10.2020.9\YESS.BE\obj\Debug\YESS.BE.csproj.CoreCompileInputs.cache
+D:\Users\1\Desktop\AddToMichshuvAnan\18.10.2020.9\YESS.BE\obj\Debug\YESS.BE.dll
+D:\Users\1\Desktop\AddToMichshuvAnan\18.10.2020.9\YESS.BE\obj\Debug\YESS.BE.pdb
+C:\Users\USER\Desktop\18.10.2020\YESS.BE\bin\Debug\YESS.BE.dll
+C:\Users\USER\Desktop\18.10.2020\YESS.BE\bin\Debug\YESS.BE.pdb
+C:\Users\USER\Desktop\18.10.2020\YESS.BE\obj\Debug\YESS.BE.csprojAssemblyReference.cache
+C:\Users\USER\Desktop\18.10.2020\YESS.BE\obj\Debug\YESS.BE.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\18.10.2020\YESS.BE\obj\Debug\YESS.BE.dll
+C:\Users\USER\Desktop\18.10.2020\YESS.BE\obj\Debug\YESS.BE.pdb
+D:\Users\1\Desktop\AddToMichshuvAnan\18.10.2020.18\YESS.BE\bin\Debug\YESS.BE.dll
+D:\Users\1\Desktop\AddToMichshuvAnan\18.10.2020.18\YESS.BE\bin\Debug\YESS.BE.pdb
+D:\Users\1\Desktop\AddToMichshuvAnan\18.10.2020.18\YESS.BE\obj\Debug\YESS.BE.csproj.CoreCompileInputs.cache
+D:\Users\1\Desktop\AddToMichshuvAnan\18.10.2020.18\YESS.BE\obj\Debug\YESS.BE.dll
+D:\Users\1\Desktop\AddToMichshuvAnan\18.10.2020.18\YESS.BE\obj\Debug\YESS.BE.pdb
+D:\Users\1\Desktop\AddToMichshuvAnan\18.10.2020.18\YESS.BE\obj\Debug\YESS.BE.csprojAssemblyReference.cache
+C:\Users\User\Desktop\18.10.1020\YESS.BE\bin\Debug\YESS.BE.dll
+C:\Users\User\Desktop\18.10.1020\YESS.BE\bin\Debug\YESS.BE.pdb
+C:\Users\User\Desktop\18.10.1020\YESS.BE\obj\Debug\YESS.BE.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\18.10.1020\YESS.BE\obj\Debug\YESS.BE.dll
+C:\Users\User\Desktop\18.10.1020\YESS.BE\obj\Debug\YESS.BE.pdb
+D:\Users\1\Desktop\AddToMichshuvAnan\19.10.2020.9\YESS.BE\bin\Debug\YESS.BE.dll
+D:\Users\1\Desktop\AddToMichshuvAnan\19.10.2020.9\YESS.BE\bin\Debug\YESS.BE.pdb
+D:\Users\1\Desktop\AddToMichshuvAnan\19.10.2020.9\YESS.BE\obj\Debug\YESS.BE.csprojAssemblyReference.cache
+D:\Users\1\Desktop\AddToMichshuvAnan\19.10.2020.9\YESS.BE\obj\Debug\YESS.BE.csproj.CoreCompileInputs.cache
+D:\Users\1\Desktop\AddToMichshuvAnan\19.10.2020.9\YESS.BE\obj\Debug\YESS.BE.dll
+D:\Users\1\Desktop\AddToMichshuvAnan\19.10.2020.9\YESS.BE\obj\Debug\YESS.BE.pdb
+C:\Users\USER\Desktop\19.10.2020\19.10.2020.9\YESS.BE\bin\Debug\YESS.BE.dll
+C:\Users\USER\Desktop\19.10.2020\19.10.2020.9\YESS.BE\bin\Debug\YESS.BE.pdb
+C:\Users\USER\Desktop\19.10.2020\19.10.2020.9\YESS.BE\obj\Debug\YESS.BE.csprojAssemblyReference.cache
+C:\Users\USER\Desktop\19.10.2020\19.10.2020.9\YESS.BE\obj\Debug\YESS.BE.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\19.10.2020\19.10.2020.9\YESS.BE\obj\Debug\YESS.BE.dll
+C:\Users\USER\Desktop\19.10.2020\19.10.2020.9\YESS.BE\obj\Debug\YESS.BE.pdb
+C:\Users\User\Desktop\20.10.2020\YESS.BE\bin\Debug\YESS.BE.dll
+C:\Users\User\Desktop\20.10.2020\YESS.BE\bin\Debug\YESS.BE.pdb
+C:\Users\User\Desktop\20.10.2020\YESS.BE\obj\Debug\YESS.BE.csprojAssemblyReference.cache
+C:\Users\User\Desktop\20.10.2020\YESS.BE\obj\Debug\YESS.BE.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\20.10.2020\YESS.BE\obj\Debug\YESS.BE.dll
+C:\Users\User\Desktop\20.10.2020\YESS.BE\obj\Debug\YESS.BE.pdb
+C:\Users\USER\Desktop\20.10.2020.1008\20.10.2020.1008\YESS.BE\bin\Debug\YESS.BE.dll
+C:\Users\USER\Desktop\20.10.2020.1008\20.10.2020.1008\YESS.BE\bin\Debug\YESS.BE.pdb
+C:\Users\USER\Desktop\20.10.2020.1008\20.10.2020.1008\YESS.BE\obj\Debug\YESS.BE.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\20.10.2020.1008\20.10.2020.1008\YESS.BE\obj\Debug\YESS.BE.dll
+C:\Users\USER\Desktop\20.10.2020.1008\20.10.2020.1008\YESS.BE\obj\Debug\YESS.BE.pdb
+C:\Users\yochi\Desktop\Projects_Yochi\Projects\Cloud_Computer_Project\20.10.2020.15.00\YESS.BE\bin\Debug\YESS.BE.dll
+C:\Users\yochi\Desktop\Projects_Yochi\Projects\Cloud_Computer_Project\20.10.2020.15.00\YESS.BE\bin\Debug\YESS.BE.pdb
+C:\Users\yochi\Desktop\Projects_Yochi\Projects\Cloud_Computer_Project\20.10.2020.15.00\YESS.BE\obj\Debug\YESS.BE.csproj.AssemblyReference.cache
+C:\Users\yochi\Desktop\Projects_Yochi\Projects\Cloud_Computer_Project\20.10.2020.15.00\YESS.BE\obj\Debug\YESS.BE.csproj.CoreCompileInputs.cache
+C:\Users\yochi\Desktop\Projects_Yochi\Projects\Cloud_Computer_Project\20.10.2020.15.00\YESS.BE\obj\Debug\YESS.BE.dll
+C:\Users\yochi\Desktop\Projects_Yochi\Projects\Cloud_Computer_Project\20.10.2020.15.00\YESS.BE\obj\Debug\YESS.BE.pdb

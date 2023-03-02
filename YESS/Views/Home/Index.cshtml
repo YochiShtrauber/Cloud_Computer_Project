@@ -1,0 +1,47 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/YESS_Layout.cshtml";
+}
+
+<h2></h2>
+<section class="banner_part">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-5 col-xl-5">
+                <div class="banner_text">
+                    <div class="banner_text_iner">
+                        @if (RouteConfig.isUser == false)
+                        {
+                            <div style="text-align:left" dir="rtl">
+                                <a href='@Url.Action("Mypass", "Home")' class="button button-contactForm btn_1">התחברות</a>
+
+                            </div>
+
+                        }
+                        else
+                        {
+                            var x = "ברוך הבא" + " " + RouteConfig.user.FirstName + " " + RouteConfig.user.LasttName;
+                            <h3><b> @x </b></h3>
+                        }
+                        <h3 dir="rtl">אנחנו כאן בשבילך</h3>
+                        <h1>
+                            Best Care &
+                            Better Doctor
+                        </h1>
+                        <h3 dir="rtl">
+                            אתר לרופא ולמזכירות
+                        </h3>
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-7">
+                <div class="banner_img">
+                    <img src="img/banner_img.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

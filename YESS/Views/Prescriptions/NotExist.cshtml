@@ -1,0 +1,93 @@
+﻿@model YESS.BE.Prescriptions
+
+@{
+    ViewBag.Title = "NotExist";
+    Layout = "~/Views/YESS_Layout.cshtml";
+}
+
+<!-- breadcrumb start-->
+<section class="breadcrumb_part breadcrumb_bg">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="breadcrumb_iner">
+                    <div class="breadcrumb_iner_item">
+                        <h2>שגיאה-הזנת נתונים שאינם קיימים</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<div>
+    <hr />
+    <dl class="dl-horizontal" dir="rtl" style="text-align:right">
+        <dt>
+            @Html.DisplayNameFor(model => model.ID_TZ_Doctor)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ID_TZ_Doctor)
+        </dd>
+        <br>
+       
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ID_TZ_Patient)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ID_TZ_Patient)
+        </dd>
+        <br>
+        
+        <dt>
+            @Html.DisplayNameFor(model => model.NDC)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NDC)
+        </dd>
+        <br>
+        
+        <dt>
+            @Html.DisplayNameFor(model => model.Start)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Start)
+        </dd>
+        <br>
+        
+        <dt>
+            @Html.DisplayNameFor(model => model.Last)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Last)
+        </dd>
+        <br>
+        
+        <dt>
+            @Html.DisplayNameFor(model => model.TimesToTake)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TimesToTake)
+        </dd>
+        <br>
+        
+        <dt>
+            @Html.DisplayNameFor(model => model.Ammount)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Ammount)
+        </dd>
+
+    </dl>
+</div>
+<div style="text-align:right">
+    <a href='@Url.Action("Index", "Home")' class="button button-contactForm btn_1">חזרה לעמוד הראשי</a>
+
+</div>

@@ -1,0 +1,126 @@
+﻿@model IEnumerable<YESS.Models.MedicineViewModel>
+
+@{
+    ViewBag.Title = "DetailsForDocto";
+    Layout = "~/Views/YESS_Layout.cshtml";
+}
+
+
+<!-- breadcrumb start-->
+<section class="breadcrumb_part breadcrumb_bg">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="breadcrumb_iner">
+                    <div class="breadcrumb_iner_item">
+                        <h2>מאגר תרופות</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<table class="table" dir="rtl" style="text-align:right">
+
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Producer)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.GenericName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ActiveIngredients)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DosageFormName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ACTIVE_NUMERATOR_STRENGTH)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ACTIVE_INGRED_UNIT)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Image)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PRODUCTNDC)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Producer)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.GenericName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ActiveIngredients)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DosageFormName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ACTIVE_NUMERATOR_STRENGTH)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ACTIVE_INGRED_UNIT)
+            </td>
+            <td>
+                @if (item.Image != "")
+                {
+                    if (System.IO.File.Exists(Path.Combine(HttpContext.Current.Server.MapPath($"/GoogleDriveFiles/{item.PRODUCTNDC}.JPEG"))))
+                    {
+                        <img style="width: 170px; height: 110px; border-radius: 8px; " src=@($"/GoogleDriveFiles/{item.PRODUCTNDC}.JPEG") />
+                    }
+                    else
+                    {
+                        if (System.IO.File.Exists(HttpContext.Current.Server.MapPath($"/GoogleDriveFiles/{item.PRODUCTNDC}.JPG")))
+                        {
+                            <img style="width: 170px; height: 110px; border-radius: 8px; " src=@($"/GoogleDriveFiles/{item.PRODUCTNDC}.JPG") />
+                        }
+                        else
+                        {
+                            if (System.IO.File.Exists(HttpContext.Current.Server.MapPath($"/GoogleDriveFiles/{item.PRODUCTNDC}.png")))
+                            {
+                                <img style="width: 170px; height: 110px; border-radius: 8px; " src=@($"/GoogleDriveFiles/{item.PRODUCTNDC}.png") />
+                            }
+                        }
+                    }
+                }
+
+
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PRODUCTNDC)
+            </td>
+            
+        </tr>
+    }
+
+</table>
+<div class="form-group" dir="rtl" style="text-align:right">
+    <div class="col-md-offset-2 col-md-10">
+        <a href='@Url.Action("Index", "Home")' class="button button-contactForm btn_1">חזרה לעמוד הראשי</a>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+        <a href='@Url.Action("Create1", "Prescriptions")' class="button button-contactForm btn_1">הנפקת מרשם למטופל</a>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+
+
+    </div>
+</div>

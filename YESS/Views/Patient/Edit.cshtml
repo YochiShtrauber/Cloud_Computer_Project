@@ -1,0 +1,205 @@
+﻿@model YESS.Models.ViewModel.PatientViewModel
+
+@{
+    ViewBag.Title = "Edit";
+    Layout = "~/Views/YESS_Layout.cshtml";
+}
+
+<!-- breadcrumb start-->
+<section class="breadcrumb_part breadcrumb_bg">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="breadcrumb_iner">
+                    <div class="breadcrumb_iner_item">
+                        <h2>עדכון מטופל</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+@using (Html.BeginForm("Edit", "Patient", FormMethod.Post))
+{
+    <h2 style="text-align:center">@ViewBag.succeessOrNot</h2>
+    <div>
+        @if (RouteConfig.helper2 == 1)
+        {
+
+
+            @Html.AntiForgeryToken()
+
+        <div class="form-horizontal" dir="rtl" style="text-align:right">
+            <hr />
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+            @Html.HiddenFor(model => model.Id)
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.FirstName, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.FirstName, new { htmlAttributes = new { @class = "form-control" , required = "required" } })
+                    @Html.ValidationMessageFor(model => model.FirstName, "", new { @class = "text-danger" })
+                    
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.LasttName, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.LasttName, new { htmlAttributes = new { @class = "form-control", required = "required" } })
+                    @Html.ValidationMessageFor(model => model.LasttName, "", new { @class = "text-danger" })
+                    
+                </div>
+            </div>
+            <div class="form-group">
+                @Html.LabelFor(model => model.EnglishName, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.EnglishName, new { htmlAttributes = new { @class = "form-control", required = "required" } })
+                    @Html.ValidationMessageFor(model => model.EnglishName, "", new { @class = "text-danger" })
+                   
+                </div>
+            </div>
+            <div class="form-group">
+                @Html.LabelFor(model => model.ID_TZ, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.ID_TZ, new { htmlAttributes = new { @class = "form-control", @disabled = "disabled" } })
+                    @Html.EditorFor(model => model.ID_TZ, new { htmlAttributes = new { @class = "form-control", @style = "display:none" } })
+                    @Html.ValidationMessageFor(model => model.ID_TZ, "", new { @class = "text-danger" })
+                    
+
+                </div>
+            </div>
+            <div class="form-group">
+                <label>סוג מין נוכחי</label>
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.Gender, new { htmlAttributes = new { @class = "form-control", @disabled = "disabled" } })
+                    @Html.EditorFor(model => model.Gender, new { htmlAttributes = new { @class = "form-control", @style = "display:none" } })
+                    @Html.ValidationMessageFor(model => model.Gender, "", new { @class = "text-danger" })
+                </div>
+            </div>
+            <div>
+                &nbsp;&nbsp;&nbsp;
+                <label for="gender">עדכון מין:</label>
+                <select name="patientGender" id="patientGender" class="form-control col-md-10">
+                    <option selected="selected">
+                        אם הינך רוצה לעדכן את סוג המין &#9757;&#127995;
+                        שנה פה
+                    </option>
+                    <option value="זכר">זכר</option>
+                    <option value="נקבה">נקבה</option>
+
+                </select>
+                <br><br>
+            </div>
+
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.Address, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.Address, new { htmlAttributes = new { @class = "form-control", required = "required" } })
+                    @Html.ValidationMessageFor(model => model.Address, "", new { @class = "text-danger" })
+                    
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.Phone, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.Phone, new { htmlAttributes = new { @class = "form-control", required = "required" } })
+                    @Html.ValidationMessageFor(model => model.Phone, "", new { @class = "text-danger" })
+                    
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.Mail, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.Mail, new { htmlAttributes = new { @class = "form-control", required = "required" } })
+                    @Html.ValidationMessageFor(model => model.Mail, "", new { @class = "text-danger" })
+                    
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.BirthDate, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.BirthDate, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.BirthDate, "", new { @class = "text-danger" })
+
+                </div>
+            </div>
+              <div class="form-group">
+                @Html.LabelFor(model => model.Hmo, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.Hmo, new { htmlAttributes = new { @class = "form-control", required = "required" } })
+                    @Html.ValidationMessageFor(model => model.Hmo, "", new { @class = "text-danger" })
+                    
+                </div>
+              </div>
+
+               <div class="form-group">
+                @Html.LabelFor(model => model.Allergy, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.Allergy, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.Allergy, "", new { @class = "text-danger" })
+                    
+
+                </div>
+               </div>
+
+               <div class="form-group">
+                <div class="col-md-10">
+                    <label>אופן רכישה נוכחי</label>
+                    @Html.EditorFor(model => model.Prescription, new { htmlAttributes = new { @class = "form-control", @disabled = "disabled" } })
+                    @Html.EditorFor(model => model.Prescription, new { htmlAttributes = new { @class = "form-control", @style = "display:none" } })
+                    @Html.ValidationMessageFor(model => model.Prescription, "", new { @class = "text-danger" })
+                </div>
+               </div>
+              <div>
+                &nbsp;&nbsp;&nbsp;
+                <label for="Prescription">עדכון אופן רכישה:</label>
+                <select name="patientPrescription" id="patientPrescription" class="form-control col-md-10">
+                    <option selected="selected">
+                        אם הינך רוצה לעדכן את אופן הרכישה &#9757;&#127995;
+                        שנה פה
+                    </option>
+                    <option value="מזומן">מזומן </option>
+                    <option value="אשראי">אשראי</option>
+
+                </select>
+                <br><br>
+
+              </div>
+              
+              <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <button type="submit" class="button button-contactForm btn_1">עדכון מטופל</button>
+                </div>
+              </div>
+            
+             
+          
+   
+        
+     </div>
+        }
+        </div>
+}
+
+
+
+
+@if (RouteConfig.helper2 == 0)
+{
+    <div style="text-align:right" dir="rtl">
+        &nbsp;&nbsp;&nbsp;
+        <a href='@Url.Action("EditPatientHis", "Patient")' class="button button-contactForm btn_1">חזרה לעדכון נוסף</a>
+
+    </div>
+}
+
+<div style="text-align:right" dir="rtl">
+    &nbsp;&nbsp;&nbsp;
+    <a href='@Url.Action("Index", "Home")' class="button button-contactForm btn_1">חזרה לעמוד הראשי</a>
+
+</div>

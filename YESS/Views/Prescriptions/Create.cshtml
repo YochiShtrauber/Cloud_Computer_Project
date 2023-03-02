@@ -1,0 +1,150 @@
+﻿@model YESS.Models.CreatePrescriptionViewModel
+
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Views/YESS_Layout.cshtml";
+}
+
+<section class="breadcrumb_part breadcrumb_bg">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="breadcrumb_iner">
+                    <div class="breadcrumb_iner_item" style="text-align:right">
+                        <h2>הנפקת מרשם</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+@using (Html.BeginForm("Create", "Prescriptions", FormMethod.Post))
+{
+
+    <h2 style="text-align:center">@ViewBag.succeessOrNot</h2>
+    <br>
+    <h2 style="text-align:center">@ViewBag.prescriptionsAllow1</h2>
+    <br>
+    <h2 style="text-align:center">@ViewBag.prescriptionsAllow2</h2>
+    <br>
+    <h2 style="text-align:center">@ViewBag.prescriptionsAllow</h2>
+    <br>
+    <h2 style="text-align:center">@ViewBag.succeessOrNot1</h2>
+    <br>
+    <h2 style="text-align:center">@ViewBag.succeessOrNot2</h2>
+    <br>
+    <h2 style="text-align:center">@ViewBag.succeessOrNot3</h2>
+    <br>
+    <h2 style="text-align:center">@ViewBag.succeessOrNot4</h2>
+    <br>
+    <div style="text-align:center" dir="rtl">
+
+        &nbsp;&nbsp;&nbsp;
+        <a href='@Url.Action("Create1", "Prescriptions")' class="button button-contactForm btn_1">בדיקת התנגשות נוספת</a>
+
+    </div>
+    @Html.AntiForgeryToken()
+    <div>
+        @if (RouteConfig.helper2 == 1)
+        {
+            <div class="form-horizontal" style="text-align:right" dir="rtl">
+                <hr />
+                @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                <div class="form-group">
+                    @Html.LabelFor(model => model.prescriptions.ID_TZ_Doctor, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => RouteConfig.user.ID_TZ, new { htmlAttributes = new { @class = "form-control", @disabled = "disabled" } })
+                        @Html.EditorFor(model => RouteConfig.user.ID_TZ, new { htmlAttributes = new { @class = "form-control", @style = "display:none" } })
+                        @Html.ValidationMessageFor(model => model.prescriptions.ID_TZ_Doctor, "", new { @class = "text-danger" })
+
+
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.prescriptions.ID_TZ_Patient, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.id, new { htmlAttributes = new { @class = "form-control", @disabled = "disabled" } })
+                        @Html.EditorFor(model => model.id, new { htmlAttributes = new { @class = "form-control", @style = "display:none" } })
+                        @Html.ValidationMessageFor(model => model.id, "", new { @class = "text-danger" })
+                        
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.prescriptions.NDC, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.medicine.PRODUCTNDC, new { htmlAttributes = new { @class = "form-control", @disabled = "disabled" } })
+                        @Html.EditorFor(model => model.medicine.PRODUCTNDC, new { htmlAttributes = new { @class = "form-control", @style = "display:none" } })
+                        @Html.ValidationMessageFor(model => model.medicine.PRODUCTNDC, "", new { @class = "text-danger" })
+                        
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.prescriptions.Start, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.startdate, new { htmlAttributes = new { @class = "form-control", @disabled = "disabled" } })
+                        @Html.EditorFor(model => model.startdate, new { htmlAttributes = new { @class = "form-control", @style = "display:none" } })
+                        @Html.ValidationMessageFor(model => model.prescriptions.Start, "", new { @class = "text-danger" })
+
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.prescriptions.Last, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                         @Html.EditorFor(model => model.lastdate, new { htmlAttributes = new { @class = "form-control" , @disabled = "disabled" } })
+                        @Html.EditorFor(model => model.lastdate, new { htmlAttributes = new { @class = "form-control", @style = "display:none" } })
+                         @Html.ValidationMessageFor(model => model.prescriptions.Last, "", new { @class = "text-danger" })
+                       
+
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.prescriptions.TimesToTake, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        
+                        <input required name="TimesToTake" type="number" class="form-control" min="1" id="TimesToTake">
+
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.prescriptions.Ammount, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        
+                        <input required  name="Ammount" type="number" class="form-control" id="Ammount" min="1" minlength="1">
+
+                    </div>
+                </div>
+
+
+                <div class="form-group">
+                    <div class="col-md-offset-2 col-md-10">
+                        <button type="submit" class="button button-contactForm btn_1">הנפקת מרשם</button>
+
+
+
+                        <input type="reset" class="button button-contactForm btn_1">
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+}
+@if (RouteConfig.helper2 == 0 && ViewBag.succeessOrNot4 == "המרשם נקלט בהצלחה במאגר המרשמים")
+{
+     <div style="text-align:right" dir="rtl">
+         &nbsp;&nbsp;&nbsp;
+         <a href='@Url.Action("CreateDocument", "Prescriptions")' class="button button-contactForm btn_1">הדפסת מרשם</a>
+     
+     </div>
+}
+<div style="text-align:right" dir="rtl">
+    &nbsp;&nbsp;&nbsp;
+    <a href='@Url.Action("Index", "Home")' class="button button-contactForm btn_1">חזרה לעמוד הראשי</a>
+
+</div>

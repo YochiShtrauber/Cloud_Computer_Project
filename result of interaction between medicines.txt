@@ -1,0 +1,620 @@
+//result of interaction between medicines.
+
+
+
+"<?xml version=\"1.0\"?>
+<interactiondata>
+<nlmDisclaimer>
+It is not the intention of NLM to provide specific medical advice,
+but rather to provide users with information to better understand 
+their health and their medications. NLM urges you to consult with 
+a qualified physician for advice about medications.
+</nlmDisclaimer>
+<fullInteractionTypeGroup>
+<sourceDisclaimer>
+DrugBank is intended for educational and scientific research purposes 
+only and you expressly acknowledge and agree that use of DrugBank is 
+at your sole risk. The accuracy of DrugBank information is not guaranteed 
+and reliance on DrugBank shall be at your sole risk. DrugBank is not 
+intended as a substitute for professional medical advice, diagnosis or 
+treatment..[www.drugbank.ca]
+</sourceDisclaimer>
+<sourceName>
+DrugBank
+</sourceName>
+
+<fullInteractionType>
+<comment>
+Drug1 (rxcui = 1551300, name = 0.5 ML dulaglutide 1.5 MG/ML Auto-Injector [Trulicity], tty = SBD). 
+Drug2 (rxcui = 752388, name = insulin lispro 25 UNT/ML / insulin lispro protamine, 
+human 75 UNT/ML Injectable Suspension [Humalog Mix], tty = SBD). 
+Drug1 is resolved to dulaglutide, 
+Drug2 is resolved to insulin lispro-aabc and interaction asserted in DrugBank between Dulaglutide
+ and Insulin lispro. 
+ Drug1 is resolved to dulaglutide, 
+ Drug2 is resolved to insulin lispro and interaction asserted in DrugBank between Dulaglutide and
+ Insulin lispro. 
+ Drug1 is resolved to dulaglutide, 
+ Drug2 is resolved to insulin lispro protamine, human and interaction asserted in DrugBank between
+ Dulaglutide and Insulin lispro.
+ </comment>
+ <minConcept>
+ <rxcui>
+ 1551300
+ </rxcui>
+ <name>
+ 0.5 ML dulaglutide 1.5 MG/ML Auto-Injector [Trulicity]
+ </name>
+ <tty>
+ SBD
+ </tty>
+ </minConcept>
+ <minConcept>
+ <rxcui>
+ 752388
+ </rxcui>
+ <name>
+ insulin lispro 25 UNT/ML / insulin lispro protamine, human 75 UNT/ML Injectable Suspension 
+ [Humalog Mix]
+ </name>
+ <tty>
+ SBD
+ </tty>
+ </minConcept>
+ 
+ <interactionPair>
+ <interactionConcept>
+ <minConceptItem>
+ <rxcui>
+ 1551291
+ </rxcui>
+ <name>
+ dulaglutide
+ </name>
+ <tty>
+ IN
+ </tty>
+ </minConceptItem>
+ <sourceConceptItem>
+ <id>
+ DB09045
+ </id>
+ <name>
+ Dulaglutide
+ </name>
+ <url>
+ https://go.drugbank.com/drugs/DB09045#interactions
+ </url>
+ </sourceConceptItem>
+ </interactionConcept>
+ <interactionConcept>
+ <minConceptItem>
+ <rxcui>
+ 2376838
+ </rxcui>
+ <name>
+ insulin lispro-aabc
+ </name>
+ <tty>
+ PIN
+ </tty>
+ </minConceptItem>
+ <sourceConceptItem>
+ <id>
+ DB00046
+ </id>
+ <name>
+ Insulin lispro
+ </name>
+ <url>
+ https://go.drugbank.com/drugs/DB00046#interactions
+ </url>
+ </sourceConceptItem>
+ </interactionConcept>
+ <severity>
+ N/A
+ </severity>
+ <description>
+ The risk or severity of hypoglycemia can be increased when Dulaglutide is combined with Insulin
+ lispro.
+ </description>
+ </interactionPair>
+ 
+ <interactionPair>
+ <interactionConcept>
+ <minConceptItem>
+ <rxcui>
+ 1551291
+ </rxcui>
+ <name>
+ dulaglutide
+ </name>
+ <tty>
+ IN
+ </tty>
+ </minConceptItem>
+ <sourceConceptItem>
+ <id>
+ DB09045
+ </id>
+ <name>
+ Dulaglutide
+ </name>
+ <url>
+ https://go.drugbank.com/drugs/DB09045#interactions
+ </url>
+ </sourceConceptItem>
+ </interactionConcept>
+ <interactionConcept>
+ <minConceptItem>
+ <rxcui>
+ 314684
+ </rxcui>
+ <name>
+ insulin lispro protamine, human
+ </name>
+ <tty>
+ IN
+ </tty>
+ </minConceptItem>
+ <sourceConceptItem>
+ <id>
+ DB00046
+ </id>
+ <name>
+ Insulin lispro
+ </name>
+ <url>
+ https://go.drugbank.com/drugs/DB00046#interactions
+ </url>
+ </sourceConceptItem>
+ </interactionConcept>
+ <severity>
+ N/A
+ </severity>
+ <description>
+ The risk or severity of hypoglycemia can be increased when Dulaglutide is combined with Insulin 
+ lispro.
+ </description>
+ </interactionPair>
+ 
+ <interactionPair>
+ <interactionConcept>
+ <minConceptItem>
+ <rxcui>
+ 1551291
+ </rxcui>
+ <name>
+ dulaglutide
+ </name>
+ <tty>
+ IN
+ </tty>
+ </minConceptItem>
+ <sourceConceptItem>
+ <id>
+ DB09045
+ </id>
+ <name>
+ Dulaglutide
+ </name>
+ <url>
+ https://go.drugbank.com/drugs/DB09045#interactions
+ </url>
+ </sourceConceptItem>
+ </interactionConcept>
+ 
+ <interactionConcept>
+ <minConceptItem>
+ <rxcui>
+ 86009
+ </rxcui>
+ <name>
+ insulin lispro
+ </name>
+ <tty>
+ IN
+ </tty>
+ </minConceptItem>
+ <sourceConceptItem>
+ <id>
+ DB00046
+ </id>
+ <name>Insulin lispro
+ </name>
+ <url>
+ https://go.drugbank.com/drugs/DB00046#interactions
+ </url>
+ </sourceConceptItem>
+ </interactionConcept>
+ <severity>
+ N/A
+ </severity>
+ <description>
+ The risk or severity of hypoglycemia can be increased when Dulaglutide is combined with Insulin 
+ lispro.
+ </description>
+ </interactionPair>
+ </fullInteractionType>
+ 
+ 
+ 
+ 
+ <fullInteractionType>
+ <comment>
+ Drug1 (rxcui = 1551300, name = 0.5 ML dulaglutide 1.5 MG/ML Auto-Injector [Trulicity], tty = SBD).
+ Drug2 (rxcui = 1652646, name = 3 ML insulin lispro 100 UNT/ML Cartridge [Humalog], tty = SBD). 
+ Drug1 is resolved to dulaglutide, 
+ Drug2 is resolved to insulin lispro-aabc and interaction asserted in DrugBank between Dulaglutide 
+ and Insulin lispro. 
+ Drug1 is resolved to dulaglutide, 
+ Drug2 is resolved to insulin lispro and interaction asserted in DrugBank between Dulaglutide and 
+ Insulin lispro.
+ </comment>
+ <minConcept>
+ <rxcui>
+ 1551300
+ </rxcui>
+ <name>
+ 0.5 ML dulaglutide 1.5 MG/ML Auto-Injector [Trulicity]
+ </name>
+ <tty>
+ SBD
+ </tty>
+ </minConcept>
+ <minConcept>
+ <rxcui>
+ 1652646
+ </rxcui>
+ <name>
+ 3 ML insulin lispro 100 UNT/ML Cartridge [Humalog]
+ </name>
+ <tty>
+ SBD
+ </tty>
+ </minConcept>
+ 
+ <interactionPair>
+ <interactionConcept>
+ <minConceptItem>
+ <rxcui>
+ 1551291
+ </rxcui>
+ <name>
+ dulaglutide
+ </name>
+ <tty>
+ IN
+ </tty>
+ </minConceptItem>
+ <sourceConceptItem>
+ <id>
+ DB09045
+ </id>
+ <name>
+ Dulaglutide
+ </name>
+ <url>
+ https://go.drugbank.com/drugs/DB09045#interactions
+ </url>
+ </sourceConceptItem>
+ </interactionConcept>
+ <interactionConcept>
+ <minConceptItem>
+ <rxcui>
+ 2376838
+ </rxcui>
+ <name>
+ insulin lispro-aabc
+ </name>
+ <tty>
+ PIN
+ </tty>
+ </minConceptItem>
+ <sourceConceptItem>
+ <id>
+ DB00046
+ </id>
+ <name>
+ Insulin lispro
+ </name>
+ <url>
+ https://go.drugbank.com/drugs/DB00046#interactions
+ </url>
+ </sourceConceptItem>
+ </interactionConcept>
+ <severity>
+ N/A
+ </severity>
+ <description>
+ The risk or severity of hypoglycemia can be increased when Dulaglutide is combined with Insulin 
+ lispro.
+ </description>
+ </interactionPair>
+ 
+ <interactionPair>
+ <interactionConcept>
+ <minConceptItem>
+ <rxcui>
+ 1551291
+ </rxcui>
+ <name>
+ dulaglutide
+ </name>
+ <tty>
+ IN
+ </tty>
+ </minConceptItem>
+ <sourceConceptItem>
+ <id>
+ DB09045
+ </id>
+ <name>
+ Dulaglutide
+ </name>
+ <url>
+ https://go.drugbank.com/drugs/DB09045#interactions
+ </url>
+ </sourceConceptItem>
+ </interactionConcept>
+ <interactionConcept>
+ <minConceptItem>
+ <rxcui>
+ 86009
+ </rxcui>
+ <name>
+ insulin lispro
+ </name>
+ <tty>
+ IN
+ </tty>
+ </minConceptItem>
+ <sourceConceptItem>
+ <id>
+ DB00046
+ </id>
+ <name>
+ Insulin lispro
+ </name>
+ <url>
+ https://go.drugbank.com/drugs/DB00046#interactions
+ </url>
+ </sourceConceptItem>
+ </interactionConcept>
+ <severity>
+ N/A
+ </severity>
+ <description>
+ The risk or severity of hypoglycemia can be increased when Dulaglutide is combined with Insulin
+ lispro.
+ </description>
+ </interactionPair>
+ 
+ </fullInteractionType>
+ 
+ 
+ <fullInteractionType>
+ <comment>
+ Drug1 (rxcui = 1551300, name = 0.5 ML dulaglutide 1.5 MG/ML Auto-Injector [Trulicity], tty = SBD).
+ Drug2 (rxcui = 731281, name = insulin lispro 50 UNT/ML / insulin lispro protamine, human 50 UNT/ML 
+ Injectable Suspension [Humalog Mix], tty = SBD). 
+ Drug1 is resolved to dulaglutide, Drug2 is resolved to insulin lispro-aabc and interaction asserted
+ in DrugBank between Dulaglutide and Insulin lispro. 
+ Drug1 is resolved to dulaglutide, Drug2 is resolved to insulin lispro and interaction asserted 
+ in DrugBank between Dulaglutide and Insulin lispro. Drug1 is resolved to dulaglutide, 
+ Drug2 is resolved to insulin lispro protamine, human and interaction asserted in DrugBank between
+ Dulaglutide and Insulin lispro.
+ </comment>
+ <minConcept>
+ <rxcui>
+ 1551300
+ </rxcui>
+ <name>
+ 0.5 ML dulaglutide 1.5 MG/ML Auto-Injector [Trulicity]
+ </name>
+ <tty>
+ SBD
+ </tty>
+ </minConcept>
+ <minConcept>
+ <rxcui>
+ 731281
+ </rxcui>
+ <name>
+ insulin lispro 50 UNT/ML / insulin lispro protamine, human 50 UNT/ML Injectable Suspension
+ [Humalog Mix]
+ </name>
+ <tty>
+ SBD
+ </tty>
+ </minConcept>
+ 
+ <interactionPair>
+ <interactionConcept>
+ <minConceptItem>
+ <rxcui>
+ 1551291
+ </rxcui>
+ <name>
+ dulaglutide
+ </name>
+ <tty>
+ IN
+ </tty>
+ </minConceptItem>
+ <sourceConceptItem>
+ <id>
+ DB09045
+ </id>
+ <name>
+ Dulaglutide
+ </name>
+ <url>
+ https://go.drugbank.com/drugs/DB09045#interactions
+ </url>
+ </sourceConceptItem>
+ </interactionConcept>
+ <interactionConcept>
+ <minConceptItem>
+ <rxcui>
+ 2376838
+ </rxcui>
+ <name>
+ insulin lispro-aabc
+ </name>
+ <tty>
+ PIN
+ </tty>
+ </minConceptItem>
+ <sourceConceptItem>
+ <id>
+ DB00046
+ </id>
+ <name>
+ Insulin lispro
+ </name>
+ <url>
+ https://go.drugbank.com/drugs/DB00046#interactions
+ </url>
+ </sourceConceptItem>
+ </interactionConcept>
+ <severity>
+ N/A
+ </severity>
+ <description>
+ The risk or severity of hypoglycemia can be increased when Dulaglutide is combined with Insulin
+ lispro.
+ </description>
+ </interactionPair>
+ 
+ <interactionPair>
+ <interactionConcept>
+ <minConceptItem>
+ <rxcui>
+ 1551291
+ </rxcui>
+ <name>
+ dulaglutide
+ </name>
+ <tty>
+ IN
+ </tty>
+ </minConceptItem>
+ <sourceConceptItem>
+ <id>
+ DB09045
+ </id>
+ <name>
+ Dulaglutide
+ </name>
+ <url>
+ https://go.drugbank.com/drugs/DB09045#interactions
+ </url>
+ </sourceConceptItem>
+ </interactionConcept>
+ <interactionConcept>
+ <minConceptItem>
+ <rxcui>
+ 314684
+ </rxcui>
+ <name>
+ insulin lispro protamine, human
+ </name>
+ <tty>
+ IN
+ </tty>
+ </minConceptItem>
+ <sourceConceptItem>
+ <id>
+ DB00046
+ </id>
+ <name>
+Insulin lispro
+</name>
+<url>
+https://go.drugbank.com/drugs/DB00046#interactions
+</url>
+</sourceConceptItem>
+</interactionConcept>
+<severity>
+N/A
+</severity>
+<description>
+The risk or severity of hypoglycemia can be increased when Dulaglutide is combined with Insulin
+ lispro.
+ </description>
+ </interactionPair>
+ 
+ <interactionPair>
+ <interactionConcept>
+ <minConceptItem>
+ <rxcui>
+ 1551291
+ </rxcui>
+ <name>
+ dulaglutide
+ </name>
+ <tty>
+ IN
+ </tty>
+ </minConceptItem>
+ <sourceConceptItem>
+ <id>
+ DB09045
+ </id>
+ <name>
+ Dulaglutide
+ </name>
+ <url>
+ https://go.drugbank.com/drugs/DB09045#interactions
+ </url>
+ </sourceConceptItem>
+ </interactionConcept>
+ <interactionConcept>
+ <minConceptItem>
+ <rxcui>
+ 86009
+ </rxcui>
+ <name>
+ insulin lispro
+ </name>
+ <tty>
+ IN
+ </tty>
+ </minConceptItem>
+ <sourceConceptItem>
+ <id>
+ DB00046
+ </id>
+ <name>
+ Insulin lispro
+ </name>
+ <url>
+ https://go.drugbank.com/drugs/DB00046#interactions
+ </url>
+ </sourceConceptItem>
+ </interactionConcept>
+ <severity>
+ N/A
+ </severity>
+ <description>
+ The risk or severity of hypoglycemia can be increased when Dulaglutide is combined with Insulin 
+ lispro.
+ </description>
+</interactionPair>
+
+</fullInteractionType>
+
+
+</fullInteractionTypeGroup>
+</interactiondata>"
+
+
+
+
+
+
+
+
+
+

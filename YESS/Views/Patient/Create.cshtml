@@ -1,0 +1,170 @@
+﻿@model YESS.BE.Patient
+
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Views/YESS_Layout.cshtml";
+}
+
+<section class="breadcrumb_part breadcrumb_bg">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="breadcrumb_iner">
+                    <div class="breadcrumb_iner_item" style="text-align:right">
+                        &quot;  <h2> הוספת מטופל </h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+@using (Html.BeginForm())
+{
+    <h2 style="text-align:center">@ViewBag.succeessOrNot</h2>
+    <div>
+        @if (RouteConfig.helper2 == 1)
+        {
+
+
+            @Html.AntiForgeryToken()
+
+        <div class="form-horizontal" style="text-align:right" dir="rtl">
+            <hr />
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+            <div class="form-group">
+                @Html.LabelFor(model => model.FirstName, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                   
+                    <input name="FirstName" type="text" pattern="[א-ת].{1,}" required  class="form-control" id="fName">
+                    <label for="name" style="color:red"><h2>@ViewBag.FirstName</h2></label>
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.LasttName, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    
+                    <input name="LasttName" type="text" pattern="[א-ת].{1,}"required  class="form-control" id="LasttName" onfocusout="myFunction()">
+
+                    <label for="name" style="color:red"><h2>@ViewBag.LasttName</h2></label>
+                </div>
+            </div>
+            <div class="form-group">
+                @Html.LabelFor(model => model.EnglishName, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                         <input name="EnglishName" type="text" required  pattern="[A-Za-z].{1,}" class="form-control" id="EnglishName" onfocusout="myFunction()">
+
+                    <label for="name" style="color:red"><h2>@ViewBag.EnglishName</h2></label>
+                </div>
+            </div>
+            <div class="form-group">
+                @Html.LabelFor(model => model.ID_TZ, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    
+                    <input name="ID_TZ" type="number" required   min="10000000" max="999999999" class="form-control" id="ID_TZ" minlength="7" size="9" maxlength="9">
+
+
+
+                </div>
+            </div>
+
+
+            <div class="form-group">
+                &nbsp;&nbsp;&nbsp;
+                <label for="gender">בחר מין:</label>
+                <select name="patientGender" id="patientGender" class="form-control col-md-10 ">
+                    <option value="זכר">זכר</option>
+                    <option value="נקבה">נקבה</option>
+                </select>
+            </div>
+            
+            <div class="form-group">
+                @Html.LabelFor(model => model.Address, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    
+                    <input name="Address" type="text" required  class="form-control" id="Address">
+
+
+
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.Phone, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    
+                    <input dir="ltr" name="Phone" type="tel" required  class="form-control" id="Phone" maxlength="11" pattern="05[0-9]{1}-[0-9]{7}" placeholder="05#-#######">
+
+
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.Mail, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    
+                    <input name="Mail" type="email" required  class="form-control" id="Mail">
+                </div>
+            </div>
+            
+            <div class="form-group">
+                @Html.LabelFor(model => model.BirthDate, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    
+                    <input name="BirthDate" type="date" required  class="form-control" max="@(DateTime.Now.ToString("yyyy-MM-dd"))" id="BirthDate">
+
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.Hmo, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    
+                    <input name="Hmo" type="text" required  class="form-control" id="Hmo">
+
+
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.Allergy, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    
+                    <input name="Allergy" type="text" class="form-control" id="Allergy">
+
+
+                </div>
+            </div>
+
+
+            <div>
+                &nbsp;&nbsp;&nbsp;
+                <label for="Prescription">אופן רכישה:</label>
+                <select name="patientPrescription" id="patientPrescription" class="form-control col-md-10">
+                    <option value="מזומן">מזומן </option>
+                    <option value="אשראי">אשראי</option>
+
+                </select>
+                <br><br>
+            </div>
+
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <button type="submit" class="button button-contactForm btn_1">הוספת מטופל</button>
+
+
+
+                    <input type="reset" class="button button-contactForm btn_1">
+                </div>
+            </div>
+        </div>
+            }
+    </div>
+}
+
+<div style="text-align:right" dir="rtl">
+    &nbsp;&nbsp;&nbsp;
+    <a href='@Url.Action("Index", "Home")' class="button button-contactForm btn_1">חזרה לעמוד הראשי</a>
+
+</div>

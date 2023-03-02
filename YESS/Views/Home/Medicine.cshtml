@@ -1,0 +1,82 @@
+﻿
+@{
+    ViewBag.Title = "Medicine";
+    Layout = "~/Views/YESS_Layout.cshtml";
+}
+
+<body>
+
+    <!-- breadcrumb start-->
+    <section class="breadcrumb_part breadcrumb_bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                  <div class="breadcrumb_iner">
+                        <div class="breadcrumb_iner_item">
+                            <h2>תרופות</h2>
+                       </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- breadcrumb start-->
+
+    <div class="form-group" dir="rtl" style="text-align:right">
+
+        <div class="col-md-offset-2 col-md-10">
+
+          <a href='@Url.Action("CreateMedicine", "Medicine")' class="button button-contactForm btn_1">הוספה </a>
+            <a href='@Url.Action("Delete1Medicine", "Medicine")' class="button button-contactForm btn_1">הסרה</a>
+
+            <a href='@Url.Action("pageEdit", "Home")' class="button button-contactForm btn_1">עדכונים</a>
+
+          <a href='@Url.Action("DetailsAskForNCD", "Prescriptions")' class="button button-contactForm btn_1">מרשמים על פי תרופה נבחרת</a>
+            <a href='@Url.Action("Details", "Medicine")' class="button button-contactForm btn_1">מאגר תרופות</a>
+
+        </div>
+
+
+
+
+
+    </div>
+
+    <!-- jquery plugins here-->
+
+
+
+    <script src="~/js/jquery-1.12.1.min.js"></script>
+
+    <!-- popper js -->
+
+    <script src="~/js/popper.min.js"></script>
+
+    <!-- bootstrap js -->
+
+    <script src="~/js/bootstrap.min.js"></script>
+
+    <!-- owl carousel js -->
+
+    <script src="~/js/owl.carousel.min.js"></script>
+
+    <script src="~/js/jquery.nice-select.min.js"></script>
+
+    <!-- contact js -->
+
+    <script src="~/js/jquery.ajaxchimp.min.js"></script>
+
+    <script src="~/js/jquery.form.js"></script>
+
+    <script src="~/js/jquery.validate.min.js"></script>
+
+    <script src="~/js/mail-script.js"></script>
+
+    <script src="~/js/contact.js"></script>
+
+    <!-- custom js -->
+
+    <script src="~/js/custom.js"></script>
+
+</body>

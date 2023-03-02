@@ -1,0 +1,178 @@
+﻿@model YESS.BE.Doctor
+
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Views/YESS_Layout.cshtml";
+}
+
+<section class="breadcrumb_part breadcrumb_bg">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="breadcrumb_iner">
+                    <div class="breadcrumb_iner_item" style="text-align:right">
+                        <h2>הוספת רופא</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+
+
+<div class="form-horizontal" style="text-align:right" dir="rtl">
+    <hr />
+    <h2 style="text-align:center">@ViewBag.succeessOrNot1</h2>
+    <h2 style="text-align:center">@ViewBag.succeessOrNot2</h2>
+    <h2 style="text-align:center">@ViewBag.succeessOrNot3</h2>
+    <h2 style="text-align:center">@ViewBag.succeessOrNot4</h2>
+    <div>
+        @if (RouteConfig.helper2 == 1)
+        {
+
+
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+            <div class="form-group">
+                @Html.LabelFor(model => model.ID_TZ, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    
+                    <input required  name="ID_TZ" type="number" min="10000000" max="999999999" class="form-control" id="ID_TZ" size="9" maxlength="9">
+
+                </div>
+            </div>
+            <div class="form-group">
+                @Html.LabelFor(model => model.LicenseNumber, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    
+                    <input required  name="LicenseNumber" type="text" class="form-control" id="LicenseNumber">
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.FirstName, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                   
+                    <input name="FirstName" type="text" pattern="[א-ת].{1,}"  class="form-control" id="fName">
+                    <label required  for="name" style="color:red"><h2>@ViewBag.FirstName</h2></label>
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.LasttName, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    
+                    <input required  name="LasttName" type="text" pattern="[א-ת].{1,}"  class="form-control" id="LasttName">
+                    <label for="name" style="color:red"><h2>@ViewBag.LasttName</h2></label>
+                </div>
+            </div>
+            <div class="form-group">
+                @Html.LabelFor(model => model.EnglishName, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    
+                    <input required  name="EnglishName" type="text"  pattern="[A-Za-z].{1,}" class="form-control" id="EnglishName">
+                </div>
+            </div>
+           
+            <div>
+                &nbsp;&nbsp;&nbsp;
+                <label for="gender">בחר מין:</label>
+                <select name="doctorGender" id="doctorGender" class="form-control col-md-10">
+                    <option value="זכר">זכר</option>
+                    <option value="נקבה">נקבה</option>
+
+                </select>
+                <br><br>
+            </div>
+            <div class="form-group">
+                @Html.LabelFor(model => model.Address, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    
+                    <input required  name="Address" type="text" class="form-control" id="Address">
+
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.Phone, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                   
+                    <input required  dir="ltr" name="Phone" type="tel" class="form-control" id="Phone" maxlength="11" pattern="05[0-9]{1}-[0-9]{7}" placeholder="05#-#######">
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.Mail, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    
+                    <input required  name="Mail" type="email" class="form-control" id="Mail">
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.BirthDate, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                   
+                    <input required  name="BirthDate" type="date" class="form-control" id="BirthDate" max="@(DateTime.Now.ToString("yyyy-MM-dd"))">
+                </div>
+            </div>
+
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.Password, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    
+                    <input required  name="Password" type="text" class="form-control" id="Password" minlength="4" size="8" maxlength="8">
+
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.UserName, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                  
+                    <input required  name="UserName" type="text" class="form-control" id="UserName">
+                </div>
+            </div>
+
+            <div>
+                &nbsp;&nbsp;&nbsp;
+                <label for="TypeSpecial">בחר תחום התמחות:</label>
+                <select name="TypeSpecial" id="TypeSpecial" class="form-control col-md-10">
+                    <option value="ילדים">ילדים</option>
+                    <option value="נשים">נשים</option>
+                    <option value="משפחה">משפחה</option>
+                    <option value="עור">עור</option>
+                    <option value="אורטופדיה">אורטופדיה</option>
+                    <option value="אף אוזן גרון">אף אוזן גרון</option>
+                    <option value="פנימית">פנימית</option>
+                    <option value="עיניים">עיניים</option>
+                    <option value="שיניים">שיניים</option>
+                    <option value="לב">לב</option>
+                    <option value="פסיכיאטריה">פסיכיאטריה</option>
+                    <option value="נוירולוגיה">נוירולוגיה</option>
+                    <option value="אחר">אחר</option>
+                </select>
+                <br><br>
+            </div>
+
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <button type="submit" class="button button-contactForm btn_1">הוספת רופא</button>
+
+                    <input type="reset" class="button button-contactForm btn_1">
+                </div>
+            </div>
+        }
+    </div>
+</div>
+}
+
+<div style="text-align:right" dir="rtl">
+    &nbsp;&nbsp;&nbsp;
+    <a href='@Url.Action("Index", "Home")' class="button button-contactForm btn_1">חזרה לעמוד הראשי</a>
+
+</div>
